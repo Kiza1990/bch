@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #858282;
+    padding: 15px 30px;
+}
+
+.navimg {
+    width: 120px;
+    height: auto;
+}
+
+#navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0e0d0e;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.hero img {
+    width: 1000px;
+    padding: 5px;
+    border: 4px solid black;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
